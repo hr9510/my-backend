@@ -7,7 +7,7 @@ db = SQLAlchemy()
 def create_app():
     app = Flask(__name__)
     app.config.update({
-        "SQLALCHEMY_DATABASE_URI": "sqlite:///restaunt.db",
+        "SQLALCHEMY_DATABASE_URI": "postgresql://postgres:himanshu%409510@db.jgffhsgtxcvgklwohczj.supabase.co:5432/postgres",
         "SQLALCHEMY_TRACK_MODIFICATIONS" : False
     })
 
